@@ -1,16 +1,63 @@
-# React + Vite
+Task Management Board
+A modern, responsive React.js Task Management Board that helps users organize, prioritize, and track their tasks using a clean Kanban-style interface. The application features drag-and-drop functionality, dark/light theme support, task filtering, search, progress tracking, and persistent storage using Local Storage.
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Features
+Create, edit, and delete tasks
+Drag and drop tasks between columns
+Kanban-style workflow (To Do, In Progress, Done)
+Dark and Light theme toggle
+Search and filter tasks
+Task statistics and progress tracking
+Responsive design for desktop and mobile
+Local Storage persistence
+Clean and modern UI
+Reusable React components
+Technologies Used
+React.js
+JavaScript (ES6+)
+HTML5
+CSS3
+Vite
+@dnd-kit/core
+@dnd-kit/sortable
+@dnd-kit/utilities
+Working Site URL
+https://task-management-board-tau.vercel.app/
 
-Currently, two official plugins are available:
+Snapshots
+image
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+image
 
-## React Compiler
+image
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+image
 
-## Expanding the Oxlint configuration
+Usage
+Add a new task.
+Edit or delete existing tasks.
+Drag tasks between workflow columns.
+Search or filter tasks.
+Switch between Light and Dark mode.
+Monitor task completion using progress statistics.
+Responsive Design
+The application is fully responsive and optimized for:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Desktop
+Laptop
+Tablet
+Mobile devices
+Data Storage
+All tasks and user preferences are stored locally in the browser using Local Storage, allowing data to persist across browser sessions without requiring a backend.
+
+Future Enhancements
+User authentication
+Cloud database integration
+Due dates and reminders
+Labels and categories
+File attachments
+Team collaboration
+Calendar view
+Notifications
+Export and import tasks
+Author : Sneha Singh
